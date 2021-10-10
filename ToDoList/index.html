@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Заметки </title>
+    <style>
+        .div1{
+            background: #ccc;
+            border-radius: 10px;
+            padding: 30px;
+            position: absolute;
+            top: 30%;
+            left: 40%;
+        }
+        .div2{
+            position: inherit;
+            top: 100%;
+            left: 72%;
+            margin-top: -30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+
+        <input type="text" placeholder="Введите заметку" id="text1">
+        <button id="button1" onclick="addList()"> Добавить заметку </button>
+
+        <ul id="list1">
+        </ul>
+        <div class="div2">
+        <button id="button2" onclick="clean()"> Очистить </button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

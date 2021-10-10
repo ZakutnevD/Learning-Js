@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+    <style>
+        h1{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Hello!</h1>
+
+<script>
+    let cup = prompt('Введите число чашек') // Пользователь вводит кол-во чашек
+    let bonusCup = 0 // Кол-во бонусных чашек
+
+    do {
+        if (cup >= 6){ // Проверяем кол-во чашек
+            cup -= 6 // Уменьшаем кол-во чашек на 6
+            bonusCup++ // Добавляем 1 к бонусным чашкам
+        }
+    } while( cup >= 6) // Делаем это пока чашек > 6
+
+    console.log('Бонусных чашек: ' + bonusCup) // Выводим в консоль
+</script>
+
+</body>
+</html>

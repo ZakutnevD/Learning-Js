@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+    <style>
+        h1{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Hello!</h1>
+
+<script>
+    let number = prompt('Введите ваше число')
+
+    for(let i = 0, sum = 0; number >= i; i++){
+
+        if (i % 3 === 0 || i % 5 === 0){
+            sum += i
+        }
+        console.log('Ответ - ' + sum)
+    }
+
+</script>
+
+</body>
+</html>

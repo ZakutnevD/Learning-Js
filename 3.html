@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+    <style>
+        h1{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Hello!</h1>
+
+<script>
+    let chicken = prompt('Введите кол-во кур: ')
+    let cow = prompt('Введите кол-во коров: ')
+    let pig = prompt('Введите кол-во свиней: ')
+
+    const legChicken = 2
+    const legCow = 4
+    const legPig = 4
+
+    let itog = 0
+
+    itog = ((chicken * legChicken) + (cow * legCow) + (pig * legPig))
+    console.log('Всего ног: ' + itog)
+
+</script>
+
+</body>
+</html>

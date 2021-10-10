@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+    <style>
+        h1{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Hello!</h1>
+
+<script>
+    let x1 = prompt('Введите координату x1')
+    let x2 = prompt('Введите координату x2')
+    let y1 = prompt('Введите координату y1')
+    let y2 = prompt('Введите координату y2')
+    let distant = 0
+
+    distant = Math.sqrt((x1-x2)**2 + (y1-y2)**2)
+    console.log('Расстояние между точками: ' + distant.toFixed(3))
+
+
+</script>
+
+</body>
+</html>

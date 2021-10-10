@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+    <style>
+        h1{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Hello!</h1>
+
+<script>
+    let number = prompt('Введите ваше число: ')
+
+    for (let i = 0, answer; number >= i; i++){
+
+        if ((i % 2) === 0){
+            answer = 'Чётное'
+        } else {
+            answer = 'Не чётное'
+        }
+
+        console.log(i + ' - ' + answer)
+    }
+</script>
+
+</body>
+</html>
