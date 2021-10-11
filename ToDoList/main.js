@@ -1,8 +1,8 @@
 const input = document.querySelector('#text1') // Текстовое поле
 const button = document.querySelector('#button1') // Кнопка добавления
 const button2 = document.querySelector('#button2') // Кнопка очистки
-const list = document.querySelector('#list1') // Список
-const list2 = document.querySelector('#list2') // Список
+const list = document.querySelector('#list1') // Список 1
+const list2 = document.querySelector('#list2') // Список 2
 
 
 function addList (){ //Функция добовления в список
